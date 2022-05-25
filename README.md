@@ -21,7 +21,7 @@ npm install ts-node --save-dev
 npm install d3 --save
 ```
 
-1. create folder structure as below and create a few files in it
+4. create folder structure as below and create a few files in it
     - my-project
         - src
             - common
@@ -32,17 +32,17 @@ npm install d3 --save
     - package.json
     - tsconfig.json
     - webpack.config.js
-2. add two lines in package.json in “script” section
+5. add two lines in package.json in “script” section
     
     "build": "webpack”
     
     "start:dev": "webpack-dev-server"
     
-3. run “npm run build” to create output .js file in ./dist
-4. run “npm run start:dev” to start local server
+6. run “npm run build” to create output .js file in ./dist
+7. run “npm run start:dev” to start local server
     1. if you set up successfully, once you run it, you should see a local server webpage pop up
     2. to test it, you can do [localhost:3443/myTemplate.js](http://localhost:3443/myTemplate.js) to see the generated js script
-5. add the local file reference to Looker
+8. add the local file reference to Looker
     1. Navigate to the Admin page in Looker
     2. Select Visualizations from the left nav
     3. Select the Add visualization button
