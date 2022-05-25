@@ -50,7 +50,7 @@ npm install d3 --save
     
     ExampleID: my-custom-viz-dev Label: My Custom Visualization - DevelopmentMain: [https://localhost:3443/myTemplate.js](https://localhost:3443/myCustomViz.js)
     
-    1. Select Save
-    2. Create or go to an Explore and you should see the custom visualization in the menu. select it.
-    3. Add some data so your explore has some data
-    4. Start your local webserver by running the `npm script start:dev`
+    5. Select Save
+    6. Create or go to an Explore and you should see the custom visualization in the menu. select it.
+    7. Add some data so your explore has some data
+    8. Start your local webserver by running the `npm script start:dev`
